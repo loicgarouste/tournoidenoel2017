@@ -12,13 +12,13 @@
       ]
     },
     "versionFirst": "4.5.2",
-    "uniqCompNum": 11,
+    "uniqCompNum": 13,
     "versionPublish": "4.5.2",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "on",
     "siteUrl": "",
     "sitemapSwitcherAuto": "on",
-    "favicon": "",
+    "favicon": "@PROJECT_PATH@/assets/images/santaclasuse-128x154.png",
     "noImageResize": "",
     "google-analytics": "",
     "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>."
@@ -53,7 +53,7 @@
               "width": 1280,
               "height": 720
             },
-            "overlay": true,
+            "overlay": false,
             "overlayColor": "#5bc0de",
             "overlayOpacity": "0"
           },
@@ -85,8 +85,55 @@
             "paddingBottom": "0",
             "columns": "4",
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title1": "Madolanicoise",
+          "caption1": "<b>Identifiant</b>",
+          "title2": "85'000",
+          "caption2": "<b>Prix</b>",
+          "title3": "Jeandanielle",
+          "caption3": "<b>Identifiant</b>",
+          "title4": "6'000",
+          "caption4": "<b>Prix</b>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content4",
+          "_styles": {
+            "H4": {
+              "text-align": "right"
+            },
+            "P": {
+              "text-align": "left",
+              "font-size": "20px"
+            },
+            "B": {
+              "font-size": "32px"
+            }
+          },
+          "_anchor": "content4-c"
+        },
+        {
+          "_params": {
+            "showTitles": false,
+            "showCaptions": true,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "columns": "4",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg",
+            "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#fff",
             "bgVideoRadio": false,
@@ -161,6 +208,9 @@
             "P": {
               "text-align": "left",
               "font-size": "20px"
+            },
+            "B": {
+              "font-size": "32px"
             }
           },
           "_anchor": "content4-2",

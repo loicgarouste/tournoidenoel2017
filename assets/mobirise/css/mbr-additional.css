@@ -6,6 +6,16 @@
   text-align: right;
   color: #c40500;
 }
+#content4-c H4 {
+  text-align: right;
+}
+#content4-c P {
+  text-align: left;
+  font-size: 20px;
+}
+#content4-c B {
+  font-size: 32px;
+}
 #content4-1 H4 {
   text-align: right;
 }
@@ -19,6 +29,9 @@
 #content4-2 P {
   text-align: left;
   font-size: 20px;
+}
+#content4-2 B {
+  font-size: 32px;
 }
 #content4-3 H4 {
   text-align: right;
