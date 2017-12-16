@@ -1,0 +1,524 @@
+{
+  "settings": {
+    "name": "tournoi de neol",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "purity",
+      "title": "PurityM",
+      "styling": {},
+      "additionalSetColors": [
+        "#ff0700",
+        "#c40500"
+      ]
+    },
+    "versionFirst": "4.5.2",
+    "uniqCompNum": 11,
+    "versionPublish": "4.5.2",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsSwitcher": "on",
+    "siteUrl": "",
+    "sitemapSwitcherAuto": "on",
+    "favicon": "",
+    "noImageResize": "",
+    "google-analytics": "",
+    "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>."
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "tournoi de noel",
+        "meta_descr": "le classement du tournoi de noel",
+        "header_custom": "<script type=\"text/javascript\">\n<!--\nif (screen.width <= 699) {\ndocument.location = \"http://go.vegasfiesta.com/fr\";\n}\n//-->\n</script>",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true,
+            "contentAlign": "right",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-1.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff8e0",
+            "bgVideoRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/embed/PIZ314W8BoY?rel=0&amp;showinfo=0&autoplay=0&loop=0",
+              "rawUrl": "https://youtu.be/PIZ314W8BoY",
+              "width": 1280,
+              "height": 720
+            },
+            "overlay": true,
+            "overlayColor": "#5bc0de",
+            "overlayOpacity": "0"
+          },
+          "title": "Votre Grand Tournoi de Noël Commence Aujourd'hui",
+          "text": "Participez au tournoi de mises VegasFiesta. 85 mille euros en premier prix. Pour un Noël inoubliable, de frissons et surtout un cagnotte incroyable.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"http://vegasfiesta.fr/page35.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Connectez vous à votre compte</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"http://go.vegasfiesta.com/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Créez un nouveau compte</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-0",
+          "_styles": {
+            "H1": {
+              "text-align": "right",
+              "color": "#c40500"
+            },
+            "P": {
+              "text-align": "right",
+              "color": "#c40500"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitles": false,
+            "showCaptions": true,
+            "paddingTop": "4",
+            "paddingBottom": "0",
+            "columns": "4",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title1": "Madolanicoise",
+          "caption1": "cillevi",
+          "title2": "85'000",
+          "caption2": "85'000",
+          "title3": "Jeandanielle",
+          "caption3": "jeandanielle",
+          "title4": "6'000",
+          "caption4": "600",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content4",
+          "_anchor": "content4-1",
+          "_styles": {
+            "H4": {
+              "text-align": "right"
+            },
+            "P": {
+              "text-align": "left",
+              "font-size": "20px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitles": false,
+            "showCaptions": true,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "columns": "4",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title1": "Madolanicoise",
+          "caption1": "graindelotte",
+          "title2": "85'000",
+          "caption2": "25'000",
+          "title3": "Jeandanielle",
+          "caption3": "vilaine",
+          "title4": "6'000",
+          "caption4": "500",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content4",
+          "_styles": {
+            "H4": {
+              "text-align": "right"
+            },
+            "P": {
+              "text-align": "left",
+              "font-size": "20px"
+            }
+          },
+          "_anchor": "content4-2",
+          "_customCSS": ""
+        },
+        {
+          "_params": {
+            "showTitles": false,
+            "showCaptions": true,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "columns": "4",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title1": "Madolanicoise",
+          "caption1": "maverick200",
+          "title2": "85'000",
+          "caption2": "10'000",
+          "title3": "Jeandanielle",
+          "caption3": "gabz",
+          "title4": "6'000",
+          "caption4": "450",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content4",
+          "_styles": {
+            "H4": {
+              "text-align": "right"
+            },
+            "P": {
+              "text-align": "left",
+              "font-size": "20px"
+            }
+          },
+          "_anchor": "content4-3"
+        },
+        {
+          "_params": {
+            "showTitles": false,
+            "showCaptions": true,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "columns": "4",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title1": "Madolanicoise",
+          "caption1": "cocolebo",
+          "title2": "85'000",
+          "caption2": "4'000",
+          "title3": "Jeandanielle",
+          "caption3": "bourrunoulon",
+          "title4": "6'000",
+          "caption4": "400",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content4",
+          "_styles": {
+            "H4": {
+              "text-align": "right"
+            },
+            "P": {
+              "text-align": "left",
+              "font-size": "20px"
+            }
+          },
+          "_anchor": "content4-4"
+        },
+        {
+          "_params": {
+            "showTitles": false,
+            "showCaptions": true,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "columns": "4",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title1": "Madolanicoise",
+          "caption1": "mamimouche",
+          "title2": "85'000",
+          "caption2": "3'000",
+          "title3": "Jeandanielle",
+          "caption3": "garageaudi74",
+          "title4": "6'000",
+          "caption4": "300",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content4",
+          "_styles": {
+            "H4": {
+              "text-align": "right"
+            },
+            "P": {
+              "text-align": "left",
+              "font-size": "20px"
+            }
+          },
+          "_anchor": "content4-5"
+        },
+        {
+          "_params": {
+            "showTitles": false,
+            "showCaptions": true,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "columns": "4",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title1": "Madolanicoise",
+          "caption1": "patty2letrrez",
+          "title2": "85'000",
+          "caption2": "2'000",
+          "title3": "Jeandanielle",
+          "caption3": "mamilarue",
+          "title4": "6'000",
+          "caption4": "200",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content4",
+          "_styles": {
+            "H4": {
+              "text-align": "right"
+            },
+            "P": {
+              "text-align": "left",
+              "font-size": "20px"
+            }
+          },
+          "_anchor": "content4-6"
+        },
+        {
+          "_params": {
+            "showTitles": false,
+            "showCaptions": true,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "columns": "4",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title1": "Madolanicoise",
+          "caption1": "laurent29",
+          "title2": "85'000",
+          "caption2": "1'000",
+          "title3": "Jeandanielle",
+          "caption3": "marcodevrize",
+          "title4": "6'000",
+          "caption4": "150",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content4",
+          "_styles": {
+            "H4": {
+              "text-align": "right"
+            },
+            "P": {
+              "text-align": "left",
+              "font-size": "20px"
+            }
+          },
+          "_anchor": "content4-7"
+        },
+        {
+          "_params": {
+            "showTitles": false,
+            "showCaptions": true,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "columns": "4",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title1": "Madolanicoise",
+          "caption1": "crolettedes",
+          "title2": "85'000",
+          "caption2": "900",
+          "title3": "Jeandanielle",
+          "caption3": "barbue25",
+          "title4": "6'000",
+          "caption4": "100",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content4",
+          "_styles": {
+            "H4": {
+              "text-align": "right"
+            },
+            "P": {
+              "text-align": "left",
+              "font-size": "20px"
+            }
+          },
+          "_anchor": "content4-8"
+        },
+        {
+          "_params": {
+            "showTitles": false,
+            "showCaptions": true,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "columns": "4",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title1": "Madolanicoise",
+          "caption1": "manivure",
+          "title2": "85'000",
+          "caption2": "800",
+          "title3": "Jeandanielle",
+          "caption3": "tatiedanielle",
+          "title4": "6'000",
+          "caption4": "100",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content4",
+          "_styles": {
+            "H4": {
+              "text-align": "right"
+            },
+            "P": {
+              "text-align": "left",
+              "font-size": "20px"
+            }
+          },
+          "_anchor": "content4-9"
+        },
+        {
+          "_params": {
+            "showTitles": false,
+            "showCaptions": true,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "columns": "4",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title1": "Madolanicoise",
+          "caption1": "gallystan",
+          "title2": "85'000",
+          "caption2": "700",
+          "title3": "Jeandanielle",
+          "caption3": "bogossefr",
+          "title4": "6'000",
+          "caption4": "100",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content4",
+          "_styles": {
+            "H4": {
+              "text-align": "right"
+            },
+            "P": {
+              "text-align": "left",
+              "font-size": "20px"
+            }
+          },
+          "_anchor": "content4-a"
+        }
+      ]
+    }
+  }
+}
