@@ -12,7 +12,7 @@
       ]
     },
     "versionFirst": "4.5.2",
-    "uniqCompNum": 13,
+    "uniqCompNum": 15,
     "versionPublish": "4.5.2",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "on",
@@ -567,6 +567,76 @@
             }
           },
           "_anchor": "content4-a"
+        },
+        {
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#37383e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Envoi</a>",
+          "text1": "<strong>Adresse</strong><br>\n32 rue Saint Marc<br>\nParis 750002<br><br>\n<strong>Contacter</strong><br>\nEmail: support@vegasfiesta.com<br><br>",
+          "text2": "<ul></ul>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "support@vegasfiesta.com",
+            "alerts": {
+              "success": "Merci !"
+            },
+            "fields": {
+              "name": {
+                "visible": false,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts3",
+          "_anchor": "contacts3-e"
+        },
+        {
+          "_afterNavbarItem": false,
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": 0,
+            "sound": "https://soundcloud.com/djlx-poudel/best-chritmas-party-song-2016-2017-djlx",
+            "autoplay": true,
+            "fullWidth": true,
+            "bgColor": "#ff0700"
+          },
+          "iframeSRC": "https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F293789851&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+          "soundURL": "url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F293789851",
+          "alias": "soundcloud",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "soundcloud1",
+          "_anchor": "soundcloud1-d"
         }
       ]
     }
